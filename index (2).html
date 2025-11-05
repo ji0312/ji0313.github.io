@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			header div h1{
+				font-size:20px;
+				font-weight: bold;
+			}
+			nav a{
+				font-size: 16px;
+				color: #888888;
+				text-decoration: none;
+				margin-right: 15px;
+			}
+			nav a:first-child{
+				color: #000000;
+			}
+			header div a{
+				font-size: 16px;
+				display: inline-block;
+				border-radius: 4px;
+				padding: 5px 10px;
+				text-decoration: none;
+				margin-left: 20px;
+				margin-top: 20px;
+			}
+			.header-right a:nth-child(1){
+				background-color: #ffffff;
+				color: #007bff;
+				border: 1px solid#007bff;
+			}
+			.header-right a:nth-child(1):hover{
+				background-color: #007bff;
+				color: #ffffff;
+			}
+			.header-right a:nth-child(2){
+				background-color: #2a8745;
+				color: #ffffff
+			}
+			.header-right a:nth-child(2):hover{
+				background-color: #ffffff;
+				color: #2a8745;
+				border: 1px solid#2a8745;
+			}
+			.header-right{
+				float: right;
+				padding: 8px;
+			}
+			.logo{
+				float: left;
+			}
+			.nav{
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-left">
+				<h1 class="logo">NOC 新云课堂</h1>
+			<nav class="nav">
+				<a class="nav-item nav-active" href="#">首页</a>
+				<a class="nav-item" href="#">课堂分类</a>
+				<a class="nav-item" href="#">直播课堂</a>
+				<a class="nav-item" href="#">阶段测试</a>
+			</nav>
+			<div class="header-right">
+				<div class="header-right-unlogined">
+				<a href="#" class="btn-login">登录</a>
+				<a href="#" class="btn-reg">注册</a>
+			</div>
+		</div>
+		</header>
+		<div>
+			<video src="chrome安装.mp4" controls="controls" width="900px"></video>
+		</div>
+	</body>
+</html>
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Document</title>
+			<link rel="stylesheet" href="5-2.css">
+			<style>
+				h4{
+					color:red;
+				}
+				a{
+					text-decoration: none;
+				}
+				ol li:first-child a{text-decoration: none;}
+			</style>
+		</head>
+	</html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Document</title>
+			<style>
+				h4{
+					text-align: center;
+					border-bottom: 1px solid #aaa;
+				}
+				div{
+					background-color: #eeeeee;
+					width: 900px;
+					border-radius: 10px;
+					border-top: 100px;
+					margin-top: 10px;
+					margin: 0 auto;
+				}
+				ol li {
+					    list-style: none;
+					    text-decoration: none;
+				        background-color: #ffffff;
+						width: 220px;
+						height: auto;
+						padding: 10px;
+						margin: 4px;
+						border: 1px solid #aaaaaa;
+						border-radius: 100px;
+						border-top: 10px
+						float: left;
+						}
+				*{
+					margin: 1000;
+					padding: 100;
+				}
+				ol li a{
+					text-decoration: none;
+					color: orange;
+				}
+				.class{
+					text-decoration: underline;
+					color: red;
+				}
+				.playing{
+					text-decoration: underline;
+					color: red;
+				}
+				ol ::after{
+					content: "";
+					clear: both;
+					display: block;
+				}
+				ol li a {
+					
+				}
+				ol li a.class{
+					text-decoration: underline;
+					color: red;
+				}
+				*{
+					float: left;
+				}
+			</style>
+		</head>
+		<body>
+			<div>
+				<h4 class="title">课程列表</h4>
+				<p>
+				 <ol>
+					<li><a ·class="playing" href="#">Chrome安装</a·></li>
+					<li><a href="#">WEB概述</a></li>
+					<li><a href="#">HTML5概述</a></li>
+					<li><a href="#">HTML5新特性</a></li>
+					<li><a href="#">HTML5页面</a></li>
+					<li><a href="#">HTML5图片</a></li>
+					<li><a href="#">HTML5表格</a></li>
+				</ol>
+			   </p>
+			</div>
+		</body>
+	</html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title></title>
+			<style>
+				footer{
+					background-color: #002752;
+					 padding: 10px 0;
+					}
+				footer-wiap{
+					 width: 900px;
+					 margin: 0 auto;
+					 padding: 10px 0;
+					}
+					   footer a{
+					         text-decoration: none;
+					}
+					footer img{
+						vertical-align: middle;
+					}
+					#gotop{
+						display: block;
+						width: 50px;
+						line-height: 50px;
+						position: fixed;
+						right: 10px;
+						bottom: 10px;
+						color: #fff;
+						background-color: #005cbf;
+						border: 2px solid #fff;
+						border-radius: 50%;
+						text-align: center;
+					}
+				</style>
+		</head>
+		<body>
+			<footer>
+				<div class="footer-wrap">
+					<a href="xx省xxx市xx街xx号">公司地址：xxx省xx市xx街xx号</a><br>
+					<a href="tel:xxxx-xxxxxxxx">联系电话：xxxx-xxxxxxxx</a><br>
+					<a href="mailto:xxxxx@xxx.xxx">详细邮箱：xxxxx@xxx.xxx</a><br>
+					<img src="footer_logo10_1.gif" alt="logo1"/>
+					<img src="footer_logo05.gif" alt="logo2"/><br />
+					<a href="Copyright ©2020">Copyright ©2020</a><br>
+				</div>
+			</footer>
+			<a id="gotop" href="#top">TOP</a>
+		</body>
+	</html>
